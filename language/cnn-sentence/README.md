@@ -6,6 +6,7 @@
 
 > Convolutional neural networks (CNN) utilize layers with convolving filters that are applied to local features (LeCun et al., 1998). Originally invented for computer vision, CNN models have subsequently been shown to be effective for NLP and have achieved excellent results in semantic parsing (Yih et al., 2014), search query retrieval (Shen et al., 2014), sentence modeling (Kalchbrenner et al., 2014), and other traditional NLP tasks (Collobert et al., 2011).
 
+See https://chriskhanhtran.github.io/posts/cnn-sentence-classification/ for a deep dive into solving this which was also used as a reference.
 
 ## Model
 

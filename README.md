@@ -11,3 +11,5 @@ $ python3 -m venv venv
 $ source venv/bin/activate
 (venv) $ pip3 install -r requirements.txt
 ```
+
+The above won't account for any hadrware accellerated versions of ML libraries (e.g. cuda, metal, etc)
