@@ -12,5 +12,6 @@ profile_default/
 ipython_config.p
 venv/
 .mypy_cache/
+debug.log
 
 **/data/**
