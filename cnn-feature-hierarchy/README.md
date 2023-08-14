@@ -66,10 +66,10 @@ of other papers that reference this paper including:
 
 ## TODO
 
-- [ ] Get familiar with how to train and eval on images
-  - [ ] Train a classifier on a small set of images
+- [X] Get familiar with how to train and eval on images
+  - [X] Train a classifier on a small set of images
     - [X] Pick the dataset - cifar10
-    - [ ] Setup train and eval harness
-    - [ ] Understand performance
-  - [ ] Consider object detection instead of classification
+    - [X] Setup train and eval harness
+    - [X] Understand performance
+- [ ] Consider object detection instead of classification
 - [ ] Look at `Selective Search for Object Recognition` and understand the dataset needed and how to evaluate quality of region proposals
