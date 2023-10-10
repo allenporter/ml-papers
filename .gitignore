@@ -15,3 +15,5 @@ venv/
 debug.log
 
 **/data/**
+**/generative-image-to-text/git-base-pokemon/**
+**/generative-image-to-text/data/**
