@@ -8,3 +8,7 @@ From https://www.youtube.com/watch?v=rlypsap6Wow
 
 The original tutorial used librosa, though I am going to use pytorch audio to
 learn another framework instead.
+
+## RMS Energy & Zero Crossing
+
+From https://www.youtube.com/watch?v=EycaSbIRx-0
