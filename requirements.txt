@@ -1,5 +1,5 @@
 # Manually install learning model of choice with hardware dependencies.
-#torch==2.0.1
+torch==2.1.0
 #flax==0.7.0
 #jax==0.4.13
 #jaxlib==0.4.13
@@ -19,3 +19,5 @@ evaluate==0.4.0
 jiwer==3.0.2
 accelerate==0.21.0
 optimum==1.11.1
+torchaudio==2.1.0
+webrtcvad==2.0..10
