@@ -14,3 +14,12 @@ learn another framework instead.
 ## RMS Energy & Zero Crossing
 
 From https://www.youtube.com/watch?v=EycaSbIRx-0
+
+## Other papers
+
+https://www.dafx.de/paper-archive/2018/papers/DAFx2018_paper_42.pdf
+
+## Classifier & Datasets
+
+- Dataset from https://urbansounddataset.weebly.com/
+- https://www.youtube.com/watch?v=88FFnqt5MNI&t=246s
