@@ -22,3 +22,4 @@ optimum==1.11.1
 torchaudio==2.1.0
 webrtcvad==2.0..10
 librosa==0.10.1
+torchsummary==1.5.1
