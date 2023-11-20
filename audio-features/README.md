@@ -23,3 +23,5 @@ https://www.dafx.de/paper-archive/2018/papers/DAFx2018_paper_42.pdf
 
 - Dataset from https://urbansounddataset.weebly.com/
 - https://www.youtube.com/watch?v=88FFnqt5MNI&t=246s
+
+The classifier with a simple 4 layer CNN seems to get around 70% accuracy or so.
