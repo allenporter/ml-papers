@@ -24,4 +24,7 @@ https://www.dafx.de/paper-archive/2018/papers/DAFx2018_paper_42.pdf
 - Dataset from https://urbansounddataset.weebly.com/
 - https://www.youtube.com/watch?v=88FFnqt5MNI&t=246s
 
-The classifier with a simple 4 layer CNN seems to get around 70% accuracy or so.
+The classifier with a simple 4 layer CNN seems to get around 70% accuracy or so. Some observations:
+- The softmax in the tutorial doesn't work if you use cross entropy loss function
+- The demo is only using one of the datasets
+- A future result that would be interesting would be to look at which categories are getting confused
