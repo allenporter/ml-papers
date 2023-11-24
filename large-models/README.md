@@ -33,17 +33,25 @@ This contains notes related to learnings about large models.
   - 540 model. The paper seems to be all about scaled training via [Pathways](https://arxiv.org/pdf/2203.12533.pdf).
   - The pathways paper talks about how we see more and more fine tuning based on a single large model which is an opportunity for utilization improvements
 
-## Playing around
+## llama.cpp
+
 
 Using a mac m1 for playing around with models, using GGUF format files.
-
 From https://lastmileai.dev/workbooks/clkbifegg001jpheon6d2s4m8
 
-
-Note that some of the instruction tuned models have specific prompts:
+Using any of the above gguf files, you can run the model:
 
 ```
 cd llama.cpp
 LLAMA_METAL=1 make
 ./main -m ./models/mistral-7b-v0.1.Q4_K_M.gguf -n 1024 -ngl 1 -p "Give me 5 things to do in NYC"
+```
+
+Note that some of the instruction tuned models have specific prompts.
+
+## python bindings
+
+```
+$ CMAKE_ARGS="-DLLAMA_METAL=on" pip install llama_cpp_python==0.2.19 --force-reinstall --upgrade --no-cache-dir
+$ python3 -m llama_cpp.server --model ./models/mistral-7b-instruct-v0.1.Q4_K_M.gguf --n_gpu_layers 1
 ```
