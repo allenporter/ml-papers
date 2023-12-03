@@ -33,6 +33,12 @@ This contains notes related to learnings about large models.
   - 540 model. The paper seems to be all about scaled training via [Pathways](https://arxiv.org/pdf/2203.12533.pdf).
   - The pathways paper talks about how we see more and more fine tuning based on a single large model which is an opportunity for utilization improvements
 
+
+## Performance
+
+- https://github.com/unslothai/unsloth - 80% faster 50% less memory local QLoRA finetuning
+- https://github.com/pytorch-labs/gpt-fast - Simple and efficient pytorch-native transformer text generation.
+
 ## llama.cpp
 
 
