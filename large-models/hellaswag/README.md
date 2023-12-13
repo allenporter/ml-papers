@@ -26,13 +26,18 @@ The [Open AI Evals](https://github.com/openai/evals) is used as a reference.
 
 ## Results
 
-### Mistral 7B Inst
+### Mistral 7B Inst - mistral-7b-instruct-v0.1.Q4_K_M
 
   - ~40% on Swag dataset after 450 iterations.
   - ~42% on HellaSwag dataset after ~430+ iterations.
   - Question: Is this getting lower scores due to quantization? Could be worth
     trying a non-quantized model and comparing the quality.
   - Question: Would this model do worse in HellaSwag?
+
+### Mistral 7B Inst - mistral-7b-instruct-v0.1.Q5_K_M
+
+  - ~43% on HellaSwag dataset after ~430+ iterations.
+
 
 ## Observations
 
