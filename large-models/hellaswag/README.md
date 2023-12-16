@@ -45,7 +45,9 @@ The [Open AI Evals](https://github.com/openai/evals) is used as a reference.
 common to see lowercase vs uppercase mismatches or small grammar fixes (e.g.
 the data had a typo and the LLM fixed it, or plural differences). These were not
 common enough to be large factors, but enough that it could squeeze out a few
-points. Testing for the simple result like "C)" could help.
+points. Possible improvements:
+  - Testing for the simple result like `C)` could help.
+  - Lowercase the prompt
 - These results are far lower than observed results. Is the prompt setup properly? The prompt was based on the Open AI LLM eval, however I didn't try that exact library. Could be worth checking an existing harness against the library.
 - Is it zero shot vs 10-shot performance? From discussion in https://github.com/ggerganov/llama.cpp/discussions/2321 the prompt only gets a few points difference
 - Looking at https://github.com/EleutherAI/lm-evaluation-harness it's not using the chat completion API. Maybe that is part of the problem.
