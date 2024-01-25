@@ -13,7 +13,8 @@ ipython_config.p
 venv/
 .mypy_cache/
 debug.log
-
+.DS_Store
 **/data/**
 **/generative-image-to-text/git-base-pokemon/**
 **/generative-image-to-text/data/**
+**/secrets.yaml
