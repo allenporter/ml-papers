@@ -3,6 +3,38 @@
 This page contains papers that I read, mostly from the "Top ML Papers of the Week"
 substack as well as my summary notes to get a TL;DR of the paper.
 
+## 2023-03-31
+
+### Agent LUMOS: Unified and Modular Training for Open-Source Language Agents
+
+[Paper](https://arxiv.org/pdf/2311.05657.pdf)
+
+Notes:
+
+- Framework for training open-source LLM-based agents. 7B with high performance.
+- Collect training annotations derived from ground-truth reasoning rationales
+- Advantages:
+  - Beats larger open source agents
+  - outperforms opensource agents produced by chain-of-thoughts training
+  - genearlizes to unseen tasks
+- Modules:
+  - Planning: decomposes a complex task into subgoals
+    - Example: The device in her hand is from which country?
+      1. Identify the brand of the device in her hand
+      1. Answer the country of the brand
+    - Actions are interpretable and tool-agnostic
+    - Makes debuggign and learning new plans easier (independent of other modules)
+  - Grounding: translates planning module subgoals into actions
+    - Generates actions based on the plan
+    - Actions can reference outputs of previous steps
+  - Execution: Runs the actions
+- Implemented w/ (1) One approach that generates the actions up front and (2) One
+  approach that runs iteratively (adaptive)
+- Converts ground truth for existing benchmarks into a unified format. Expect the data sources is generally useful.
+- Training with converted annotations in multi-turn, loss of groudntruth responses (minus user prompt tokens)
+- Outperforms other LLM Agent models by a large margin, as well as closed source models
+
+
 
 ## 2023-03-24
 
