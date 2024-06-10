@@ -3,7 +3,27 @@
 This page contains papers that I read, mostly from the "Top ML Papers of the Week"
 substack as well as my summary notes to get a TL;DR of the paper.
 
-## 2023-03-31
+## 2024-06-09
+
+### AgentGym: Evolving Large Language Model-based Agents across Diverse Environments
+
+[Paper](https://arxiv.org/pdf/2406.04151)
+
+Notes:
+
+- AGENTGYM is made from these contributions:
+  - Platform for standardizing tasks/goals for agents. Exposed through HTTP services.
+    - 14 environments, 89 tasks, available for expansion
+  - Benchmarks & trajectories
+    - [AGENTEVAL](https://huggingface.co/datasets/AgentGym/AgentEval): Base set of instructions and tasks
+    - [AGENTTRAJ](https://huggingface.co/datasets/AgentGym/AgentTraj-L): Trajectory set
+    - All collected using human annotations and expanded with models
+  - Self-evolution investigation
+    - AGENTEVOL - Novel method to explore agent evolution across environments.
+    - Evolution is pronounced, comparable or better performance than SOTA models.
+
+
+## 2024-03-31
 
 ### Agent LUMOS: Unified and Modular Training for Open-Source Language Agents
 
@@ -36,7 +56,7 @@ Notes:
 
 
 
-## 2023-03-24
+## 2024-03-24
 
 
 ### What Are Tools Anyway?: A Survey from the Language Model Perspective
