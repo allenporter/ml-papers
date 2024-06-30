@@ -3,6 +3,26 @@
 This page contains papers that I read, mostly from the "Top ML Papers of the Week"
 substack as well as my summary notes to get a TL;DR of the paper.
 
+## 2024-06-30
+
+### Improving Retrieval in LLMs through Synthetic Data
+
+[Paper](https://arxiv.org/pdf/2406.19292)
+
+Notes:
+
+- Uses an answer template and only compute loss on the answers in the template. This lets the model focus on the retrieval task rather than how to answer the question
+- Fine tuning did not hurt performance on other benchmarks
+
+
+### LongRAG: Enhancing Retrieval-Augmented Generation with Long-context LLMs
+
+[Paper](https://arxiv.org/abs/2406.15319)
+
+Notes:
+
+- Separate retrieval into a "long retirever" and a "long reader" that does the summarization of the answer.
+
 ## 2024-06-09
 
 ### AgentGym: Evolving Large Language Model-based Agents across Diverse Environments
