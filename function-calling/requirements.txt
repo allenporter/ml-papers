@@ -1,0 +1,10 @@
+llama_cpp_python==0.2.81
+huggingface-hub
+anyio
+starlette
+starlette_context
+sse_starlette
+uvicorn
+fastapi
+pydantic_settings
+transformers
