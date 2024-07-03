@@ -19,3 +19,4 @@ debug.log
 **/generative-image-to-text/git-base-pokemon/**
 **/generative-image-to-text/data/**
 **/secrets.yaml
+**/models/**

@@ -3,20 +3,20 @@
     "port": 8080,
     "models": [
       {
-        "model": "/Users/allen/.cache/huggingface/hub/models--meetkai--functionary-7b-v1.4-GGUF/snapshots/ad1b2777eb60f87ee90dd4f1ee6e5ec3d7934fc4/functionary-7b-v1.4.q4_0.gguf",
+        "model": "models/functionary-7b-v1.4/functionary-7b-v1.4.q4_0.gguf",
         "model_alias": "functionary-7b-v1.4",
         "chat_format": "functionary-v1",
-        "hf_pretrained_model_name_or_path": "/Users/allen/.cache/huggingface/hub/models--meetkai--functionary-7b-v1.4-GGUF/snapshots/ad1b2777eb60f87ee90dd4f1ee6e5ec3d7934fc4/",
+        "hf_pretrained_model_name_or_path": "models/functionary-7b-v1.4/",
         "n_gpu_layers": 32,
         "offload_kqv": true,
         "n_ctx": 4096,
         "use_mlock": false
       },
       {
-        "model": "/Users/allen/.cache/huggingface/hub/models--meetkai--functionary-7b-v2.1-GGUF/snapshots/4386d5a19700bd0ae1582574e3de13a218fb1c8e/functionary-7b-v2.1.q4_0.gguf",
+        "model": "models/functionary-7b-v2.1/functionary-7b-v2.1.q4_0.gguf",
         "model_alias": "functionary-7b-v2.1",
         "chat_format": "functionary-v2",
-        "hf_pretrained_model_name_or_path": "/Users/allen/.cache/huggingface/hub/models--meetkai--functionary-7b-v2.1-GGUF/snapshots/4386d5a19700bd0ae1582574e3de13a218fb1c8e/",
+        "hf_pretrained_model_name_or_path": "models/functionary-7b-v2.1",
         "n_gpu_layers": 32,
         "offload_kqv": true,
         "n_ctx": 4096,

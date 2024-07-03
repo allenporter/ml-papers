@@ -18,21 +18,22 @@ $ CMAKE_ARGS="-DLLAMA_METAL=on" pip install -r requirements.txt --force-reinstal
 ## Download models
 
 ```bash
+$ MODEL_DIR=models/
 $ huggingface-cli download <path/to/repo or models>
 ```
 
 ## Download v1 models
 
 ```bash
-$ huggingface-cli download meetkai/functionary-7b-v1.4-GGUF --exclude '*gguf'
-$ huggingface-cli download meetkai/functionary-7b-v1.4-GGUF functionary-7b-v1.4.q4_0.gguf
+$ huggingface-cli download meetkai/functionary-7b-v1.4-GGUF --exclude '*gguf' --local-dir=${MODEL_DIR}/functionary-7b-v1.4 
+$ huggingface-cli download meetkai/functionary-7b-v1.4-GGUF functionary-7b-v1.4.q4_0.gguf --local-dir=${MODEL_DIR}/functionary-7b-v1.4 
 ```
 
 ## Download v2.1 models
 
 ```bash
-$ huggingface-cli download meetkai/functionary-7b-v2.1-GGUF --exclude '*gguf'
-$ huggingface-cli download meetkai/functionary-7b-v2.1-GGUF functionary-7b-v2.1.q4_0.gguf
+$ huggingface-cli download meetkai/functionary-7b-v2.1-GGUF --exclude '*gguf' --local-dir=${MODEL_DIR}/functionary-7b-v2.1
+$ huggingface-cli download meetkai/functionary-7b-v2.1-GGUF functionary-7b-v2.1.q4_0.gguf --local-dir=${MODEL_DIR}/functionary-7b-v2.1
 ```
 
 ## Run llama-cpp-python
