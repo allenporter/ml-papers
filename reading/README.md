@@ -3,6 +3,48 @@
 This page contains papers that I read, mostly from the "Top ML Papers of the Week"
 substack as well as my summary notes to get a TL;DR of the paper.
 
+## 2024-07-08
+
+
+### Searching for Best Practices in Retrieval-Augmented
+
+[Paper](https://arxiv.org/abs/2407.01219)
+
+
+### Scaling Synthetic Data Creation with 1,000,000,000 Personas
+
+
+[Paper](https://arxiv.org/abs/2406.20094)
+
+Notes:
+- Text-to-Persona: Use the training data to create personas that may be searching for the text
+- Persona-to-Persona: Generate other relations from the primary persona. e.g. primary is a nurse at a child hospital, then generate a child as another persona.
+- Deduplication: Reducing duplicates of the billions of personas
+  - MinHash to dedup text on n-grams
+  - Embedding with `text-embedding-3-small` filter out personals with a cosine semantic similarity greater than 0.9.
+- Then... Create a math problem for the persona.
+- Results indicate that it is helpful to use the personas for creating diverse sets of data
+- Examples of tool use and creating characters in a game.
+
+
+
+### APIGen: Automated PIpeline for Generating
+
+[Paper](https://arxiv.org/pdf/2406.18518)
+
+Notes:
+- Verifiable and Diverse Function-Calling Datasets
+- Data generation pipeline that facilitates function calling
+- Developed a dataset of 60k documents
+- Stages of verification:
+  - Format checker - syntax tests to make sure the data is properly formatted, ensures arguments are valid, etc.
+  - Execution checker - test the output of actually runing the command. provides very fine grained error details if it does not succeed.
+  - Semantic checker - Ask another LLM: does it make sense? was the desired result achieved? does the number of function calls make sense, are the results relevant.
+- Berkeley function calling benchmark 
+
+
+
+
 ## 2024-06-30
 
 ### Improving Retrieval in LLMs through Synthetic Data
