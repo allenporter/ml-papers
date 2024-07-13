@@ -36,6 +36,18 @@ $ huggingface-cli download meetkai/functionary-7b-v2.1-GGUF --exclude '*gguf' --
 $ huggingface-cli download meetkai/functionary-7b-v2.1-GGUF functionary-7b-v2.1.q4_0.gguf --local-dir=${MODEL_DIR}/functionary-7b-v2.1
 ```
 
+## Downlaod v2.5 models
+
+Download the quantized gguf that uses much less VRAM. The original uses 24G.
+
+```bash
+$ REPO=functionary-small-v2.5-GGUF
+$ MODEL=functionary-small-v2.5.Q4_0.gguf
+$ MODEL_DIR=/data/models
+$ huggingface-cli download meetkai/${REPO} --exclude '*gguf' --local-dir=${MODEL_DIR}/${REPO}
+$ huggingface-cli download meetkai/${REPO} ${MODEL} --local-dir=${MODEL_DIR}/${REPO}
+```
+
 ## Run llama-cpp-python
 
 ```bash
