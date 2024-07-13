@@ -1,7 +1,3 @@
 {
-    "image": "nvidia/cuda:12.1.1-devel-ubuntu22.04",
-    "runArgs": [
-        "--gpus",
-        "all"
-    ],
+    "image": "ghcr.io/allenporter/functionary-server:v0.1.0",
 }
