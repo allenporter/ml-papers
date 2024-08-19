@@ -3,35 +3,15 @@
     "port": 8080,
     "models": [
       {
-        "model": "models/functionary-7b-v1.4/functionary-7b-v1.4.q4_0.gguf",
-        "model_alias": "functionary-7b-v1.4",
-        "chat_format": "functionary-v1",
-        "hf_pretrained_model_name_or_path": "models/functionary-7b-v1.4/",
-        "n_gpu_layers": 32,
-        "offload_kqv": true,
-        "n_ctx": 4096,
-        "use_mlock": false
-      },
-      {
-        "model": "models/functionary-7b-v2.1/functionary-7b-v2.1.q4_0.gguf",
-        "model_alias": "functionary-7b-v2.1",
-        "chat_format": "functionary-v2",
-        "hf_pretrained_model_name_or_path": "models/functionary-7b-v2.1",
-        "n_gpu_layers": 32,
-        "offload_kqv": true,
-        "n_ctx": 4096,
-        "use_mlock": false
-      },
-      {
-        "model": "functionary-small-v2.5.Q4_0.gguf",
-        "model_alias": "functionary-small-v2.5-auto-tokenizer",
-        "hf_model_repo_id": "meetkai/functionary-small-v2.5-GGUF",
+        "model": "/data/models/functionary-small-v2.5-GGUF/functionary-small-v2.5.Q4_0.gguf",
+        "model_alias": "functionary-small-v2.5",
         "hf_pretrained_model_name_or_path": "meetkai/functionary-small-v2.5-GGUF",
-        "chat_format": "hf-autotokenizer",
+        "chat_format": "functionary",
         "n_gpu_layers": 32,
         "offload_kqv": true,
-        "n_ctx": 4096,
-        "use_mlock": false
+        "n_ctx": 8192,
+        "use_mlock": false,
+        "verbose": true
       }
     ]
   }
