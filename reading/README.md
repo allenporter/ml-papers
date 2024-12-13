@@ -3,6 +3,20 @@
 This page contains papers that I read, mostly from the "Top ML Papers of the Week"
 substack as well as my summary notes to get a TL;DR of the paper.
 
+## 2024-08-18
+
+### RagChecker
+
+[Paper](https://arxiv.org/pdf/2408.08067)
+
+Approach for evaluating RAG systems
+
+### EfficientRAG
+
+[Paper](https://arxiv.org/pdf/2408.04259)
+
+Multi-round retrieval with a smaller model, instead of multi-round LLM answering.
+
 ## 2024-07-08
 
 
