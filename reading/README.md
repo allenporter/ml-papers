@@ -5,6 +5,12 @@ substack as well as my summary notes to get a TL;DR of the paper.
 
 ## 2025-01-19
 
+### Enhancing Retrieval-Augmented Generation: A Study of Best Practices
+
+Paper: [Enhancing Retrieval-Augmented Generation: A Study of Best Practices](https://arxiv.org/pdf/2501.07391)
+
+- Good results from contrastive in context learning
+
 ### VideoRAG
 
 Paper: [VideoRAG](https://arxiv.org/pdf/2501.05874)
