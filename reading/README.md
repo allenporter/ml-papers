@@ -3,6 +3,15 @@
 This page contains papers that I read, mostly from the "Top ML Papers of the Week"
 substack as well as my summary notes to get a TL;DR of the paper.
 
+## 2025-01-19
+
+### VideoRAG
+
+Paper: [VideoRAG](https://arxiv.org/pdf/2501.05874)
+
+- Including video content provides substantial wins
+- Text descriptions does not add significant advantage on top of video content
+
 ## 2024-08-18
 
 ### RagChecker
