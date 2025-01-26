@@ -3,6 +3,15 @@
 This page contains papers that I read, mostly from the "Top ML Papers of the Week"
 substack as well as my summary notes to get a TL;DR of the paper.
 
+## 2025-01-26
+
+- [Humanity's last exam](https://static.scale.com/uploads/654197dc94d34f66c0f5184e/Publication%20Ready%20Humanity's%20Last%20Exam.pdf?utm_source=substack&utm_medium=email)
+- [Can LLMs Plan?](https://arxiv.org/pdf/2501.13545)
+  - Can LLMs generate long-horizon plans that rival human performance without external
+  tools?
+  - If so, what key factors differentiate our prompting technique from other step-by-step methods like Chain-of-Thought?
+- [Hallucinations Can Improve Large Language Models in Drug Discovery](https://arxiv.org/pdf/2501.13824)
+
 ## 2025-01-19
 
 ### Enhancing Retrieval-Augmented Generation: A Study of Best Practices
