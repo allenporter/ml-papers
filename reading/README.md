@@ -11,7 +11,10 @@ substack as well as my summary notes to get a TL;DR of the paper.
   tools?
   - If so, what key factors differentiate our prompting technique from other step-by-step methods like Chain-of-Thought?
 - [Hallucinations Can Improve Large Language Models in Drug Discovery](https://arxiv.org/pdf/2501.13824)
-- [Self awareness](https://arxiv.org/pdf/2501.11120)
+  - Models can use halicunated inputs (especially from GPT-4o) to improve quality.
+- [LLMs and Behavioral Awareness](https://arxiv.org/pdf/2501.11120)
+  - Models can make statements about the policies they have been fine tuned with. "We find that the model can describe the policies of the
+different personas without conflating them, even generalizing to out-of-distribution personas"
 
 ## 2025-01-19
 
