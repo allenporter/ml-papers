@@ -11,6 +11,7 @@ substack as well as my summary notes to get a TL;DR of the paper.
   tools?
   - If so, what key factors differentiate our prompting technique from other step-by-step methods like Chain-of-Thought?
 - [Hallucinations Can Improve Large Language Models in Drug Discovery](https://arxiv.org/pdf/2501.13824)
+- [Self awareness](https://arxiv.org/pdf/2501.11120)
 
 ## 2025-01-19
 
