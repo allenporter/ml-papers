@@ -3,6 +3,17 @@
 This page contains papers that I read, mostly from the "Top ML Papers of the Week"
 substack as well as my summary notes to get a TL;DR of the paper.
 
+## 2025-03-09
+
+- [The First Few Tokens Are All You Need](https://arxiv.org/pdf/2503.02875)
+  - Rejection Fine Tuning improves accuracy but not coverage of reasoning traces
+  - Unsupervised Prefix Fine Funing maximizes coverage of the reasoning trace
+- [Forecasting Rare Language Model Behaviors](https://arxiv.org/pdf/2502.16797)
+  - Techniques for forecasting risk for models in deployment
+- [How Well do LLMs Compress Their Own Chain-of-Thought?](https://arxiv.org/pdf/2503.01141)
+  - most questions have a well-defined ‘token complexity’
+  - Token complexity alone can predict the performance of CoT prompting strategies with 95% accuracy
+
 ## 2025-01-26
 
 - [Humanity's last exam](https://static.scale.com/uploads/654197dc94d34f66c0f5184e/Publication%20Ready%20Humanity's%20Last%20Exam.pdf?utm_source=substack&utm_medium=email)
