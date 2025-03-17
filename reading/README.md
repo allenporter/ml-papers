@@ -3,6 +3,14 @@
 This page contains papers that I read, mostly from the "Top ML Papers of the Week"
 substack as well as my summary notes to get a TL;DR of the paper.
 
+## 2025-03-16
+
+- [Gemma3](https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf)
+- [Transformers Without Normalization](https://arxiv.org/pdf/2503.10622)
+  - LayerNorm looks like tanh. Dynamic tanh performs similar.
+- [Auditing Language Models for Hidden Objectives](https://assets.anthropic.com/m/317564659027fb33/original/Auditing-Language-Models-for-Hidden-Objectives.pdf)
+  - Techniques for safety evaluations
+
 ## 2025-03-09
 
 - [The First Few Tokens Are All You Need](https://arxiv.org/pdf/2503.02875)
