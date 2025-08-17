@@ -3,3 +3,4 @@ matplotlib==3.10.5
 torch==2.8.0
 tqdm==4.67.1
 seaborn==0.13.2
+celluloid==0.2.0

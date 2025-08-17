@@ -11,10 +11,12 @@ https://www.youtube.com/watch?v=GCoP2w-Cqtg
 - z ~ Pdata (.|y) - Conditional generation means sampling the data distribution
 - A generative model converts samples from an initial distribution into samples from the data distribution
 
-- Trajectory: X[0, ^] -> Rd, t -> Xt
+- If struggling, focus on understanding the flow component first before the diffusion component.
+
+- Trajectory: X[0, ^] -> Rd, t -> Xt - A solution to an ODE.
     -  A function of time. Given a time t gives you a vector Xt. In 2D this is
        a point moving through space with a trajectory Xy
-- Vector field: u Rd x [0, ^] -> Rd
+- Vector field: u Rd x [0, ^] -> Rd - Defines an ODE.
     (x, t) -> ut(x)
     - Gives you directions at every point
 - Ordinary differential equation (ODE). Describes conditions on a trajectory.
