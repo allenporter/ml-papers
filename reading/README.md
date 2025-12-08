@@ -3,6 +3,10 @@
 This page contains papers that I read, mostly from the "Top ML Papers of the Week"
 substack as well as my summary notes to get a TL;DR of the paper.
 
+## 2025-12-07
+
+- [Is Vibe Coding Safe? ](https://arxiv.org/pdf/2512.03262)
+
 ## 2025-03-16
 
 - [Gemma3](https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf)
