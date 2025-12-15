@@ -3,6 +3,10 @@
 This page contains papers that I read, mostly from the "Top ML Papers of the Week"
 substack as well as my summary notes to get a TL;DR of the paper.
 
+@@ 2025-12-14
+
+- [Towards a Science of Scaling Agent Systems](https://arxiv.org/pdf/2512.08296)
+
 ## 2025-12-07
 
 - [Is Vibe Coding Safe? ](https://arxiv.org/pdf/2512.03262)
